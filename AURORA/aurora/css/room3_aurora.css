@@ -1,0 +1,15 @@
+body{
+    background-image: url("../images/1000_F_441052066_TTWs5hTPpLHSzdf11uL4zrIacrzAub8u.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#hint{
+    background-color: cadetblue;
+    size:20%;
+}
+#books{
+    margin-left: 70%;
+    height:20%;
+
+}
