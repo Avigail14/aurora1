@@ -3,6 +3,7 @@ body{
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    /* overflow: hidden; */
 }
 #hint{
     background-color: cadetblue;
@@ -14,12 +15,71 @@ body{
 
 }
 #note{
-    display: none;
+    position:absolute;
+    display: block;
+    top: 25%;
+    size:30%;
+    left:40%;
+    
 }
 
-#thought{
-    display: none;
+#leatherBag{
+    display:block;
+    position:absolute;
+    top:60%;
+    left: 60%;
+    height:35%;
+    width:20%;
+
 }
 #witch{
     display: none;
 }
+#nextRoom4{
+  display: block;
+
+}
+
+#poisen{
+    width: 15%;
+    height:10%;
+    top: 20%;
+  
+}
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #17C3B2;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }
+   
