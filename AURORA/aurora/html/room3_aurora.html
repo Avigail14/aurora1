@@ -18,8 +18,10 @@
     <img src="../images/old_books_room3.png" id="books" onclick="books()">
     <img src="../images/580b585b2edbce24c47b277e.png" id="poisen" onclick="poision()">
     <img src="../images/oldOpenBook_room3.png" id="oldBook" onclick="oldBook()">
+    <img src="../images/crown.png" id="crown" onclick="crown()">
     <img src="../images/leatherBag.png" id="leatherBag" onclick="leather()">
- <img src="../images/note.png" id="note" onclick="showNextRoomButton()">
-   <img src="../images/maleficntImg.png" id="witch">
+ <img src="../images/note.png" id="note">
+   <img src="../images/nobackgroundmalificent.png" id="witch">
+   <p1 id="noteP1" > 3</p1>
     <button type="button" id="nextRoom4"> to Room4</button>
-    <button type="button" id="tryAgain" onclick="decrees()">You got caught, try again</button>
+    <button type="button" id="tryAgain" onclick="decrees(); clearTimeout(myTimeout)">You got caught, try again</button>
