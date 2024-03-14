@@ -40,6 +40,7 @@ function decrees(){
     document.getElementById("noteP1").style.display = "none";
     document.getElementById("tryAgain").style.display = "none";
     document.getElementById("witch").style.display = "none";
+    ocument.getElementById("leatherBag").style.display = "none";
     myTimeout = setTimeout(showWitch,60000);
 }
 function crown(){
